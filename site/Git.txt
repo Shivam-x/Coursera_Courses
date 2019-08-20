@@ -1,0 +1,19 @@
+git clone https://github.com/Shivam-x/Coursera-Test.git
+
+get clone https://github.com/jhu-ep-coursera/fullstack-course4.git
+cd coursera-test
+git status
+mkdir site
+cd site
+git status
+cd ..
+git add .
+git config --global user.email sppmsc97@gmail.com
+git commit -m "my first page."
+
+git push
+git status //after commit
+git add.
+
+npm install -g browser-sync
+browser-sync start --server -directory --files "*"
